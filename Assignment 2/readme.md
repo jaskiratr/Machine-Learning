@@ -49,9 +49,11 @@ Coefficients:
 
 
 Distribution of prediction error on training data:
+
 ![Training](error distribution/linear_reg_train.png?raw=true "Training")
 
 Distribution of prediction error on test data:
+
 ![Test](error distribution/linear_reg_test.png?raw=true "Test")
 
 ---
@@ -73,9 +75,11 @@ Coefficients:
 **Variance score, training data: 1.00**
 
 Distribution of prediction error on training data:
+
 ![Training](error distribution/polynomial_train.png?raw=true "Training")
 
 Distribution of prediction error on test data:
+
 ![Test](error distribution/polynomial_test.png?raw=true "Test")
 
 ---
@@ -129,8 +133,10 @@ Coefficients:
 **Variance score, training data: 1.00**
 
 Distribution of prediction error on training data:
+
 ![Training](error distribution/ridge_train.png?raw=true "Training")
 
 Distribution of prediction error on test data:
+
 ![Test](error distribution/ridge_test.png?raw=true "Test")
 
