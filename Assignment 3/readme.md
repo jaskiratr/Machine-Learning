@@ -20,7 +20,7 @@ Number of clusters for the filtered data:
   - 10 Clusters
     ![10 Clusters](10+ reviews/10 clusters.png?raw=true "10 Clusters")
   - 20 Clusters
-    ![20 Clusters](10+ reviews/20 Clusters.png?raw=true "20 Clusters")
+    ![20 Clusters](10+ reviews/20 clusters.png?raw=true "20 Clusters")
   - 30 Clusters
     ![30 Clusters](10+ reviews/30 clusters.png?raw=true "30 Clusters")
 
