@@ -1,6 +1,12 @@
+## Results
+
+### Linear Regression
+
 Intercept: 
  0.406039062829
+ 
 Coefficients: 
+
  [ -4.06038987e-01  -9.12167369e-13  -1.82544865e-12  -2.56689561e-11
    6.03342051e-11  -2.24105016e-10   2.86109521e-10   6.80533407e-11
   -3.23530883e-10  -1.64524586e-10  -3.49178280e-10   6.16620762e-10
@@ -38,10 +44,99 @@ Coefficients:
    0.00000000e+00]
 
 **Residual sum of squares, training data: 0.00**
+
 **Residual sum of squares, test data: 0.00**
+
 **Variance score, training data: 1.00**
 
 
 Distribution of prediction error on training data:
+![Training](error distribution/linear_reg_train.png?raw=true "Training")
 
 Distribution of prediction error on test data:
+![Test](error distribution/linear_reg_test.png?raw=true "Test")
+
+---
+
+### Polynomial Regression
+
+Intercept: 
+ 2996.67377111
+ 
+Coefficients: 
+
+ [ -3.58133084e+00   1.36871408e+01   1.33094376e-03 ...,   1.69081585e-03
+   0.00000000e+00   0.00000000e+00]
+   
+**Residual sum of squares, training data: 0.00**
+
+**Residual sum of squares, test data: 96054.35**
+
+**Variance score, training data: 1.00**
+
+Distribution of prediction error on training data:
+![Training](error distribution/polynomial_train.png?raw=true "Training")
+
+Distribution of prediction error on test data:
+![Test](error distribution/polynomial_test.png?raw=true "Test")
+
+---
+
+### Ridge Regression
+
+Intercept: 
+ -1.4626129996e-07
+
+Coefficients: 
+
+ [  0.00000000e+00   1.76436121e-12  -8.15480771e-13  -1.74427051e-09
+   4.37739166e-09  -5.66285423e-10   7.52279563e-10   7.70406709e-10
+  -7.67645626e-10  -3.11501334e-09  -4.53540675e-09  -5.16546454e-09
+   9.90731225e-10   3.62348265e-11   2.50487988e-10   2.22998682e-07
+  -2.22840967e-07  -2.23472377e-07  -2.21354238e-07  -2.23062851e-07
+  -2.25110265e-07  -2.22227096e-07  -2.25258485e-07  -2.22180806e-07
+  -2.23807533e-07  -2.22575816e-07  -2.22686925e-07  -2.23271094e-07
+  -2.22580556e-07  -2.23104100e-07  -2.22811103e-07  -2.23104623e-07
+  -2.23240958e-07  -2.22913932e-07  -2.23106186e-07  -2.22887762e-07
+  -2.23070667e-07  -2.22809853e-07  -2.23258827e-07  -2.23025472e-07
+   8.86217432e-08  -8.83197344e-08  -8.83580534e-08  -8.88366876e-08
+  -8.90485253e-08  -8.85575691e-08  -8.87945590e-08  -8.85924936e-08
+  -8.86418977e-08  -8.87381795e-08  -8.88401126e-08  -8.85053913e-08
+  -8.81751497e-08  -8.82310293e-08  -8.86015860e-08  -8.89980406e-08
+  -8.86685547e-08  -8.91713936e-08  -8.89337024e-08  -8.88477157e-08
+  -8.89861589e-08  -8.83437508e-08  -8.79227373e-08  -8.85124535e-08
+  -9.56713567e-08   9.55022034e-08   9.56109253e-08   9.55806460e-08
+   9.59085409e-08   9.56242177e-08   9.56889889e-08   9.56458327e-08
+   9.58378126e-08   9.56556475e-08   9.56010931e-08   9.57396443e-08
+   9.53936037e-08   9.57813023e-08   9.55972475e-08   9.58519409e-08
+   9.55962840e-08   9.61167454e-08   9.52922404e-08   9.54020570e-08
+   9.53790184e-08   9.59059539e-08   9.55315247e-08   9.58307334e-08
+   5.03686956e-09   8.97717692e-10   1.68738363e-09   3.22865848e-09
+  -4.17214076e-09   3.17090385e-08   8.29927957e-09   1.57975636e-09
+  -4.61555539e-11   2.76597495e-11   1.00000000e+00   4.57690012e-10
+   8.33377355e-09   4.89703104e-10  -3.03295442e-09   2.23560194e-09
+   2.02430788e-09   1.64043047e-10   4.72674864e-10  -5.62898765e-16
+   4.24613707e-13  -4.51923268e-14   1.81993376e-16  -2.44588896e-13
+   2.01518024e-13   1.44053741e-13   1.71754091e-13  -3.30443296e-11
+  -7.90476522e-14   6.96000114e-13  -7.46320225e-14   1.84620387e-12
+  -4.81861181e-12  -8.35036951e-14  -4.96388165e-12   1.08047805e-13
+  -1.29947311e-12   1.36869295e-12  -3.98443822e-13  -1.44951582e-12
+   8.50035084e-15  -1.80244639e-14   1.95343149e-13   1.49411359e-13
+   4.40763745e-15  -3.79214984e-13   2.81055988e-09  -2.60242526e-09
+   0.00000000e+00]
+
+**Residual sum of squares, training data: 0.00**
+
+**Residual sum of squares, test data: 0.00**
+
+**Variance score, training data: 1.00**
+
+Distribution of prediction error on training data:
+![Training](error distribution/ridge_train.png?raw=true "Training")
+
+Distribution of prediction error on test data:
+![Test](error distribution/ridge_test.png?raw=true "Test")
+
+---
+
+![Compare](error distribution/compare.png?raw=true "Compare")
