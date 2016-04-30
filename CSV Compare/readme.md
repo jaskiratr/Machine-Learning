@@ -1,5 +1,4 @@
 #### Comparing two CSV files for changes using Pandas for Python
-**The changes are reflected in the final dataframe which can be saved**
 
 The changes are reflected in merged differences dataframe. A new column 'changes' is added to describe the changes.
 
